@@ -12,7 +12,6 @@
             <h:commandButton value=">" action="#{controladorDePessoas.salvar()}"/>
             <h:commandButton value="+" action="#{controladorDePessoas.atualizar()}"/>
 
-
             <h:dataTable var="pessoa" value="#{controladorDePessoas.todasAsPessoas}">
                 <h:column>
                     #{pessoa.cpf}
